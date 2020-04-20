@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+*{
+margin:0;
+padding:0;
+background:url(back.jpg);
+}
+.top
+{
+position:relative;
+top:-5px;
+height:80px;
+margin:auto;
+margin-top:10px;
+background:#dbdbdb;
+
+}
+.txt{
+position:relative;
+top:20px;
+line-height:15px;
+font-weight:800;
+color:#202040;
+}
+.male,.female{
+margin:auto;
+margin-top:100px;
+}
+#btn1,#btn2{
+margin:auto;
+margin-top:30px;
+margin-left:60px;
+}
+
+ul li{
+background:red;
+}
+#fot{
+background:#4d4c7d;
+color:white;
+font-style:italic;
+font-weight:600;
+margin:auto;
+margin-top:60px;
+
+}
+</style>
+<body>
+<div class="container-fluid">
+<div class="page-header top"><h1 class="text-center txt">Get into Shape</h1></div>
+<div class="row">
+<div class="col-xs-6"><img src="male.png" class="male">
+<button data-toggle="collapse" data-target="#demo" class="btn btn-info " id="btn1">For Men</button>
+<div class="collapse" id="demo">
+<ul class="list-group text-info">
+<li class="list-group-item">Half a kilo is enough. </li>
+<li class="list-group-item">Avoid processed foods. </li>
+<li class="list-group-item">Hydrate when you can. </li>
+<li class="list-group-item">Keep water handy. </li>
+<li class="list-group-item">Go easy on the booze. </li>
+<li class="list-group-item">Alternate your drinks on a night out. </li>
+<li class="list-group-item">Correct food choices = fewer calories. </li>
+<li class="list-group-item">Don't overdose on protein.</li>
+</ul>
+</div>
+</div>
+<div class="col-xs-6"><img src="female.png" class="female">
+<button data-toggle="collapse" data-target="#demo1" class="btn btn-danger" id="btn2">For women</button>
+<div class="collapse" id="demo1">
+<ul class="list-group text-danger">
+<li class="list-group-item">Cut out the carbs. </li>
+<li class="list-group-item">Keep your body hydrated. </li>
+<li class="list-group-item"> Follow a structured exercise pattern.</li>
+<li class="list-group-item">Replace junk food with healthy snacking. </li>
+<li class="list-group-item">Healthy Breakfast- a must! </li>
+
+</ul>
+</div></div>
+<div class="col-xs-12 text-center " id="fot">&copy;2020,All rights reserved|Designed by Abhishek Chauhan</div>
+</div>
+
+
+</body>
+
+</html>
